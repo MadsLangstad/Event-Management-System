@@ -1,4 +1,5 @@
 import models.Event;
+import models.StudyProgram;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -61,21 +62,22 @@ public class Initializer {
             PreparedStatement stmt = con.prepareStatement(sqlGetProgramInfo);
             ResultSet rs = stmt.executeQuery();
 
-            while(rs.next()) {
+
+            while (rs.next()) {
                 StudyProgram studyProgram = new StudyProgram();
                 studyProgram.setName(rs.getString("name"));
                 studyProgram.setProgramResponsible(rs.getString("programResponsible"));
                 studyProgram.setDescription(rs.getString("description"));
-                programs.add(studyProgram);  // Adding the created studyProgram to the list
+                programs.add(studyProgram); // Adding the created studyProgram to the list
             }
+
+            return programs; // Return the populated programs list after the loop
 
         } else {
             System.out.println("Program does not exist in the database.");
         }
         return programs;
     }
-
-
 
 
     public static boolean doesProgramExist() {

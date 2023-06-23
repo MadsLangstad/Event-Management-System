@@ -1,3 +1,5 @@
+package models;
+
 public class StudyProgram {
     private String name;
     private String programResponsible;
