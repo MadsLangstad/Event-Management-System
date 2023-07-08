@@ -51,7 +51,7 @@ public class Initializer {
 
     //# Need Fix
     public static List<StudyProgram> seeOverallProgram() throws SQLException {
-        List<StudyProgram> programs = new ArrayList<>();
+        ArrayList<StudyProgram> programs = new ArrayList<>();
         if (doesProgramExist()) {
 
             String sqlUseUniversity = "USE universityDB;";
@@ -61,7 +61,6 @@ public class Initializer {
             String sqlGetProgramInfo = "SELECT * FROM studyPrograms;";
             PreparedStatement stmt = con.prepareStatement(sqlGetProgramInfo);
             ResultSet rs = stmt.executeQuery();
-
 
             while (rs.next()) {
                 StudyProgram studyProgram = new StudyProgram();

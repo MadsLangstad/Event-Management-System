@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b912d80-bc14-42d2-a711-cf87a419cd5b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/event-management-exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/event-management-exam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/event-management-exam/CreateEventDB.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/event-management-exam/CreateUniversityDB.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/event-management-exam/Initializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/event-management-exam/Initializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/event-management-exam/StudyProgram.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Initializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Initializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StudyProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/StudyProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +29,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/madslangstad/programming/java/event-management-exam",
+    "last_opened_file_path": "/Users/madslangstad/repos/event-management-exam",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
